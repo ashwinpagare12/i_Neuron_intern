@@ -1,0 +1,117 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> SALARY CONFIRMATION </h1><br>
+        
+        <form action = "/predict" method = "POST">
+           <b> age        : <input type="text", name='age', placeholder="enter[17to90]"> <br><br>
+            workclass     : <select name="workclass" id="workclass">
+                                <option value="State-gov">State-gov</option>
+                                <option value="Self-emp-not-inc">Self-emp-not-inc</option>
+                                <option value="Private">Private</option>
+                                <option value="Federal-gov">Federal-gov</option>
+                                <option value="Local-gov">Local-gov</option>
+                                <option value="Self-emp-inc">Self-emp-inc</option>
+                                <option value="Without-pay">Without-pay</option>
+                                <option value="Never-worked">Never-worked</option>
+                            </select><br><br>
+
+            fnlwgt        : <input type="text", name='fnlwgt', placeholder="[12k to 14Lac]"> <br><br>
+            education     : <select name="education" id="education">
+                                <option value="10th">10th</option>
+                                <option value="11th">11th</option>
+                                <option value="12th">12th</option>
+                                <option value="1st-4th">1st-4th</option>
+                                <option value="5th-6th">5th-6th</option>
+                                <option value="7th-8th">7th-8th</option>
+                                <option value="9th">9th</option>
+                                <option value="Assoc-acdm>Assoc-acdm</option>
+                                <option value="Assoc-voc">Assoc-voc</option>
+                                <option value="Bachelors">Bachelors</option>
+                                <option value="Doctorate">Doctorate</option>
+                                <option value="HS-grad">HS-grad</option>
+                                <option value="Masters">Masters</option>
+                                <option value="Preschool">Preschool</option>
+                                <option value="Prof-school">Prof-school</option>
+                                <option value="Some-college">Some-college</option>
+                            </select><br><br>
+
+            education_num : <input type="text", name='education_num', placeholder="[1 to 16]"> <br><br>
+            occupation    : <select name="occupation" id="occupation">
+                                <option value="Adm-clerical">Adm-clerical</option>
+                                <option value="Armed-Forces">Armed-Forces</option>
+                                <option value="Craft-repair">Craft-repair</option>
+                                <option value="Exec-managerial">Exec-managerial</option>
+                                <option value="Farming-fishing">Farming-fishing</option>
+                                <option value="Handlers-cleaners">Handlers-cleaners</option>
+                                <option value="Machine-op-inspct">Machine-op-inspct</option>
+                                <option value="Other-service">Other-service</option>
+                                <option value="Priv-house-serv">Priv-house-serv</option>
+                                <option value="Prof-specialty">Prof-specialty</option>
+                                <option value="Protective-serv">Protective-serv</option>
+                                <option value="Sales">Sales</option>
+                                <option value="Tech-support">Tech-support</option>
+                                <option value="Transport-moving">Transport-moving</option>
+                            </select><br><br>
+           
+            race          : <select name="race" id="race">
+                                <option value="White">White</option>
+                                <option value="Black">Black</option>
+                                <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                            </select><br><br>
+
+            sex           : <select name="sex" id="sex">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select><br><br> 
+                                
+            capital_gain  : <input type="text", name='capital_gain', placeholder="[0 to 99999]"> <br><br>
+            capital_loss  : <input type="text", name='capital_loss', placeholder="[0 to 4356]"> <br><br>
+            hours_per_week: <input type="text", name='hours_per_week', placeholder="[1 to 99]"> <br><br>
+
+            country       : <select name="country" id="country">
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="Canada">Canada</option>
+                                <option value="China">China</option>
+                                <option value="Columbia">Columbia</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="Dominican-Republic">Dominican-Republic</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="El-Salvador">El-Salvador</option>
+                                <option value="England">England</option>
+                                <option value="France"">France"</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Haiti">Haiti</option>
+                                <option value="Holand-Netherlands">Holand-Netherlands</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Hong">Hong</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="India">India</option>
+                                <option value="Iran">Iran</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Jamaica">Jamaica</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Laos">Laos</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Outlying-US(Guam-USVI-etc)">Outlying-US(Guam-USVI-etc)</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="United-States">United-States</option>
+                                <option value="Vietnam">Vietnam</option>
+                            </select><br><br><br></b>
+            <input type="submit" , value='submit!' >
+        </form>
+        </center>
+    </body>
+</html>
